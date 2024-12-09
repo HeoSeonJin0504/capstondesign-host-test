@@ -184,19 +184,36 @@ const Home = ({ user }: HomeProps) => {
       <p className="bodytext">
         아이들 그림을 저장하고, 그림을 업로드하면 이야기를 생성할 수 있습니다.
       </p>
+      {user ? (
+        <Button to="/get-started">실습하기</Button>
+      ) : (
+        <Button to="/login">로그인</Button>
+      )}
       <Button to="/get-started">실습하기</Button>
       <div className="cards">
         <div className="card">
           <h2>그림 저장</h2>
-          <p>그림을 업로드하여<p/>저장할 수 있습니다.</p>
+          <p>
+            그림을 업로드하여
+            <p />
+            저장할 수 있습니다.
+          </p>
         </div>
         <div className="card">
           <h2>그림 확인</h2>
-          <p>업로드한 그림을<p/>확인할 수 있습니다.</p>
+          <p>
+            업로드한 그림을
+            <p />
+            확인할 수 있습니다.
+          </p>
         </div>
         <div className="card">
           <h2>동화 생성</h2>
-          <p>업로드한 그림으로<p />동화를 생성할 수 있습니다.</p>
+          <p>
+            업로드한 그림으로
+            <p />
+            동화를 생성할 수 있습니다.
+          </p>
         </div>
       </div>
     </Style>
