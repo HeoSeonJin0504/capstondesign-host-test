@@ -187,7 +187,7 @@ const Home = ({ user }: HomeProps) => {
       {user ? (
         <Button to="/get-started">실습하기</Button>
       ) : (
-        <Button to="/login">로그인</Button>
+        <Button to="/get-started">실습하기</Button>
       )}
       <div className="cards">
         <div className="card">
