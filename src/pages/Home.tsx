@@ -195,7 +195,7 @@ const Home = ({ user }: HomeProps) => {
           <h2>그림 저장</h2>
           <p>
             그림을 업로드하여
-            <p />
+            <br />
             저장할 수 있습니다.
           </p>
         </div>
@@ -203,7 +203,7 @@ const Home = ({ user }: HomeProps) => {
           <h2>그림 확인</h2>
           <p>
             업로드한 그림을
-            <p />
+            <br />
             확인할 수 있습니다.
           </p>
         </div>
@@ -211,7 +211,7 @@ const Home = ({ user }: HomeProps) => {
           <h2>동화 생성</h2>
           <p>
             업로드한 그림으로
-            <p />
+            <br />
             동화를 생성할 수 있습니다.
           </p>
         </div>
